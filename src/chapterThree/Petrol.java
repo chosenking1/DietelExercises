@@ -1,6 +1,6 @@
-package chapterTwo;
+package chapterThree;
 
-public class WorldPopulation {
+public class Petrol {
     public static void main(String[] args) {
 
     }
