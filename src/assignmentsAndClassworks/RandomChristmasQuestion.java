@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class RandomChristmasQuestion {
 
-
-
     public static void main(String[] args) {
         RandomChristmasQuestion go = new RandomChristmasQuestion();
         go.randomNumber();

@@ -11,7 +11,7 @@ public class LedLight {
         String[] input = new String[7];
        for(first = 0; first < input.length; first++) {
 
-           String keyboardInput = type.findInLine("[0-1]");
+           String keyboardInput = type.findInLine("[A-]");
         input[first] = keyboardInput;
        }
 

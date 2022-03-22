@@ -3,7 +3,7 @@ package chapterFour;
 import javaChapter2.Examples.PrimeNumbersDisplay;
 
 import java.util.Scanner;
-
+//4.17
 public class GasMileage {
     int milesDriven;
     int gallons;
@@ -35,8 +35,12 @@ public class GasMileage {
 
     public static void average(int distance, int fuel) {
         int average = fuel / distance;
-        GasMileage.display(average);
+       display(average);
 
+       int cosowo, moscow, polymophysym;
+cosowo = 10;
+moscow = 67;
+polymophysym = 90;
 
     }
 }
