@@ -1,0 +1,75 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> python .\nine\joshua.main.py
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'C:\\Users\\ADMIN\\PycharmProjects\\python_with_cohorts\\nine\\joshua
+.main.py': [Errno 2] No such file or directory
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> dir
+
+
+    Directory: C:\Users\ADMIN\PycharmProjects\python_with_cohorts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/11/2022   4:43 PM                .idea
+d-----         1/11/2022   4:46 PM                nine
+-a----         1/11/2022   4:53 PM           1934 .gitignore
+-a----         1/11/2022   4:33 PM             21 README.md
+
+
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> pythonpython .\nine\joshua.main.py
+pythonpython : The term 'pythonpython' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of 
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ pythonpython .\nine\joshua.main.py
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pythonpython:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> python .\nine\joshua\main.py
+My name is Joshua Sofowora
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nine/joshua/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> git add nine/joshua/
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   nine/joshua/main.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> git commit -m "added folder with my name"
+[main 88ef1dc] added folder with my name
+ 1 file changed, 2 insertions(+)
+ create mode 100644 nine/joshua/main.py
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 473 bytes | 473.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/chosenking1/python_with_cohorts.git
+   b513c26..88ef1dc  main -> main
+PS C:\Users\ADMIN\PycharmProjects\python_with_cohorts>
+
