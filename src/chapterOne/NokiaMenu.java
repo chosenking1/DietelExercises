@@ -78,8 +78,7 @@ public class NokiaMenu {
                 for Voice mailbox number press 9
                 for Service command editor press 10
                 
-                
-                """;
+                 """;
                 System.out.println(messages);
                 int msg = input.nextInt();
                 switch (msg) {
