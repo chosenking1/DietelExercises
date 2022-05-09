@@ -25,7 +25,7 @@ public class Knight {
          newMoveRow = currentColum + horizontal[moveNumber];
 
         if (newMoveColumn > board.length || newMoveRow > board.length)
-            throw new ArrayIndexOutOfBoundsException("data don fall");
+            throw new ArrayIndexOutOfBoundsException("Knight don fall");
             currentColum += horizontal[moveNumber];
              currentRow += vertical[moveNumber];
     }
