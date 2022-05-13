@@ -1,4 +1,5 @@
-package javaChapter2.Exercises;//We first write a code that takes an input, then we and then we write conditions
+package javaChapter2.Exercises;
+//We first write a code that takes an input, then we and then we write conditions
 //that assigns different multiplications to the input arcording to the number imputed, 
 //so therefore, as the numbers increases the figure they are multiplied by decreases.
 import java.util.Scanner;

@@ -48,5 +48,10 @@ public class KnightTest {
 //        assertEquals("The Move is Invalid", e.getMessage());
         }
 
+
     }
+
+    @Test
+
+    void aPlaceMarkedCantBeRemarked(){}
 }
