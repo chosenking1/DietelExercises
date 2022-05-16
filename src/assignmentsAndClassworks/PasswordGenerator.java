@@ -1,9 +1,12 @@
 package assignmentsAndClassworks;
 
+import java.awt.*;
 import java.security.SecureRandom;
+import java.util.regex.Pattern;
+
 
 public class PasswordGenerator {
-  static   char [] capLetter = {'A', 'B', 'C', 'D','E','F'};
+  static   char [] capLetter = {'A','B','C','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
    static char [] lowerCase = {'a', 'b', 'c', 'd','e','f'};
    static char [] number = {'1','2', '3', '4','5','6'};
    private static String password = "";
